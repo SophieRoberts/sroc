@@ -1,0 +1,399 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Londrina+Shadow);
+@import url(https://fonts.googleapis.com/css?family=Coming+Soon);
+html {
+font-family: "Josefin Sans", sans-serif;	
+}
+h4 {
+	font-size: 1.5em;
+}
+/* header */
+.header, .minheader {
+	position: relative;
+	bottom: 80px;
+	background-size: cover;
+	background-position: center;
+}
+.header {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/03/Orienteering.jpg");
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	-o-filter: blur(3px);
+	-ms-filter: blur(35px);
+	filter: blur(3px);
+	height: 60vh;
+}
+.minheader {
+	background-image: url("minheader.png");
+	height: 40vh;
+	color: black;
+}
+.title, .mintitle {
+	text-align: center;
+	font-weight: 700;
+	position: relative;
+	z-index: 10;
+}
+
+/* title */
+.title {
+	color: white;
+	top: 20vh;
+}
+.mintitle {
+	color: black;
+	top: 10vh;
+}
+.title h1, .mintitle h1 {
+	font-size: 3em;
+	margin: 0 auto;
+}
+.title h3, .mintitle h3 {
+	font-size: 1.5em;
+	margin: 0 auto;
+	margin-top: 15px;	
+}
+
+/* nav */
+.nav {
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+	margin-top: -70px;
+	margin-bottom: 50px;
+}
+#nav {
+	text-align: center;
+	font-size: 1.25em;
+	height: 20px;	
+}
+#nav li {
+	display: inline;
+	padding-right: 20px;	
+}
+#nav li a:hover {
+	color: #ff2222;
+}
+#nav a {
+	text-decoration: none;
+	color: black;
+}
+#nav .active a {
+	color: #ff2222;
+	font-weight: 700;
+}
+#kite {
+	color: #ff2222;
+	font-size: 1.5em;
+	position: relative;
+	top: 4px;
+}
+/* homepage */
+
+.left{
+	float: left;
+	margin-left: 20px;
+	height: 950px;	
+}
+.right {
+	float: right;
+	position: relative;
+	margin-right: 20px;
+	height: 950px;
+}
+.results h4, .events h4, .blog h4 {
+	margin-bottom: 10px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+.results a, .events a {
+	text-decoration: none;
+	color: black;
+}
+.events, .results{
+	border: 2px solid #ff2222;
+	border-radius: 5px;
+}
+.blog{
+	border: 2px solid #ff2222;
+	width: 60vh;
+	height: 908px;
+	text-align: center;
+	margin: 0 auto;
+}
+.events, .results, .weather, .twitter, .strava{
+	width: 300px;
+	height: 299px;
+	margin-bottom: 20px;
+}
+.recent, .join {
+	height: 150px;
+}
+
+#recent1, #recent2, #recent3, #recent4, #recent5 {
+	height: 50px;
+}
+#recent1 p, #recent2 p, #recent3 p, #recent4 p, #recent5 p {
+	font-size: 1.1em;
+	margin-top: 0px;
+	margin-left: 15px;
+	line-height: 50px;
+}
+#recent1:hover{
+	background-color: #ff2222;
+	opacity: 0.6;
+	color: white;
+}
+#recent2:hover{
+	background-color: #ff2222;
+	opacity: 0.6;
+	color: white;
+}
+#recent3:hover{
+	background-color: #ff2222;
+	opacity: 0.6;
+	color: white;
+}
+#recent4:hover{
+	background-color: #ff2222;
+	opacity: 0.6;
+	color: white;
+}
+#recent5:hover{
+	background-color: #ff2222;
+	opacity: 0.6;
+	color: white;
+}
+
+ #event1, #event2, #event3 {
+	height: 80px;
+	margin-top: 5px;
+	font-size: 1.25em;	
+}
+
+#event1:hover{
+	background-color: #ff2222;
+	opacity: 0.6;
+	color: white;
+}
+#event2:hover{
+	background-color: #ff2222;
+	opacity: 0.6;
+	color: white;
+}
+#event3:hover{
+	background-color: #ff2222;
+	opacity: 0.6;
+	color: white;
+}
+#event1 h5, #event1 p, #event2 h5, #event2 p, #event3 h5, #event3 p{
+	margin: 0 auto;
+	margin-left: 15px;
+}
+#event1 p, #event2 p, #event3 p {
+	font-size: 0.8em;
+}
+#event1 #date, #event2 #date, #event3 #date {
+	padding-top: 10px;
+}
+#newsletter  {
+	font-size: 1.8em;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 40px;
+}
+#newsletter a {
+	color: green;
+	text-decoration: none;
+	font-family: "Londrina Shadow";
+	font-size: 1.5em;
+}
+.links {
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+}
+.links img {
+	height: 150px;
+	width: 200px;
+}
+
+/* join btn */
+.join {
+	margin-top: 0px;
+}		
+.join a {
+	color: white;
+	font-size: 1.25em;
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	margin-left: 75px;
+	background-color: #ff2222;
+	opacity: 0.85;
+}
+
+/* content */
+.content {
+	width: 75%;
+	margin: 0 auto;
+	font-size: 1.25em;
+}
+.content h4 {
+	text-align: center;
+	margin-top: 100px;
+}
+.content h6 {
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+.content p {
+	text-align: justify;
+	line-height: 30px;
+}
+.content a {
+	color: green;
+	text-decoration: none;
+}
+.content a:hover {
+	color: black;
+	text-decoration: underline;
+}
+.content ul {
+	list-style: none;
+	columns: 2;
+	width: 120%;
+	margin: 0 auto;
+}
+.content ul li {
+	padding: 5px;
+}
+.content #up {
+	color: black;
+	font-weight: 300;
+	padding-left: 20px;
+}
+.content table {
+	margin-top: 50px;
+}
+.content td {
+	padding: 10px 30px;
+}
+#arrow {
+	text-align: center;
+}
+#arrow a:nth-child(2) {
+	padding-left: 500px;
+}
+#red {
+	color: red;
+}
+#inline, #members, #list {
+	columns: 1;
+	list-style: square;
+	width: 100%;
+}
+#inline {
+	font-weight: 700;
+	text-align: center;
+}
+#inline li {
+	display: inline;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: center
+}
+#inline a {
+	font-size: 0.9em;
+}
+#center {
+	text-align: center;
+}
+
+/* tables */
+#grey {
+	background: #ededed;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#grey td, #grey th {
+	border: 1px solid white;
+	padding: 10px 10px;
+}
+#grey #grid {
+	width: 50px;
+}
+#grey #where {
+	width: 250px;
+}
+#grey #level {
+	width: 70px;
+}
+#grey #course {
+	width: 180px;
+}
+#grey #eventtype {
+	width: 150px;
+}
+#grey #title {
+	width: 40%;
+}
+#big {
+	width: 220px;
+}
+#british {
+	width: 300px;
+}
+#details {
+	margin-top: 0px;
+	margin-left: -30px;
+}
+
+/* footer */
+.footer {
+	background-image: url("images/prefooter.png");
+	text-align: center;
+	margin-top: 50px;
+	height: 60vh;
+}
+.footer #logo {
+	width: 323px;
+	height: 224px;
+}
+.footer li {
+	display: inline;
+}
+.footer a {
+	color: black;
+	text-decoration: none;
+}
+.footer a:hover {
+	text-decoration: underline;
+}
+.footer_content {
+	position: relative;
+	top: 200px;
+}
+.footer_imgs, #icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#icons li:first-child {
+	padding-right: 20px;
+}
+.footer_imgs #lotto {
+	width: 230px;
+	height: 53px;
+}
+.footer_imgs #clubmark {
+	width: 44px;
+	height: 25px;
+	padding-right: 10px;
+}
+.footer_imgs #soho {
+	width: 90px;
+	height: 18px;
+}
+
